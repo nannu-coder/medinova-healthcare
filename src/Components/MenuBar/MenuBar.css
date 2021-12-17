@@ -1,0 +1,31 @@
+.logo {
+  font-weight: bold;
+  font-size: 23px;
+  padding: 0;
+}
+
+.logo span {
+  color: #f75d43;
+}
+
+.menu-btn {
+  background-color: #f75d43;
+  border-color: #f75d43;
+}
+
+.menu-btn:active {
+  background-color: #f75d43;
+  border-color: #f75d43;
+}
+
+.menu-btn:focus {
+  border-color: transparent;
+  box-shadow: none;
+  background-color: #f75d43;
+}
+
+.menu-btn:hover {
+  background-color: transparent;
+  color: #f75d43;
+  border-color: #f75d43;
+}

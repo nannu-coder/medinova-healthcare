@@ -1,0 +1,15 @@
+.card-item {
+  margin-top: 40px;
+}
+
+.heading h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.heading span {
+  color: #f75d43;
+}
+.heading p {
+  padding: 0 322px;
+}

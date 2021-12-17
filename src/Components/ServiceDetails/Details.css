@@ -1,0 +1,14 @@
+.details {
+  margin-top: 100px;
+}
+
+.details_top_heading {
+  margin-top: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.details_top_heading span {
+  color: #f75d43;
+}
