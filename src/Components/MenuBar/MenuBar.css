@@ -29,3 +29,9 @@
   color: #f75d43;
   border-color: #f75d43;
 }
+
+.user {
+  position: relative;
+  top: 8px;
+  right: 12px;
+}

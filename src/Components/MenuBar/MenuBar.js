@@ -42,6 +42,9 @@ const MenuBar = () => {
                         </Nav>
 
                         <Form className="d-flex">
+                            <div className="one">
+                                <p className='user'>{user.displayName}</p>
+                            </div>
                             {user.email ? <Button className='menu-btn' onClick={logOut}>Log Out</Button> : <Link to="/signin">
                                 <Button className='menu-btn'>Sign In</Button>
                             </Link>}

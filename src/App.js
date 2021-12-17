@@ -10,6 +10,7 @@ import SignIn from './Components/SignIn/SignIn';
 import SignUp from './Components/SignUp/SignUp';
 import AuthProvider from './Context/AuthProvider';
 import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
 
@@ -44,9 +45,9 @@ function App() {
               <SignUp></SignUp>
             </Route>
 
-            <Route path='/servicedetails/:userId'>
+            <PrivateRoute path='/servicedetails/:userId'>
               <ServiceDetails></ServiceDetails>
-            </Route>
+            </PrivateRoute>
 
             <Route path='*'>
               <NotFound></NotFound>

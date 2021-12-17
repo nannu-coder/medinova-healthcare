@@ -19,7 +19,7 @@ const UseFirebase = () => {
             .then((result) => {
                 const user = result.user;
                 setUser(user);
-                // console.log(user.email);
+                // console.log(user);
             }).catch((error) => {
                 setError(error.message)
             })
