@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "Dr. Bruce",
+    "Citations": 7964,
+    "hIndex": 45,
+    "type": "Vascular Surgery",
+    "nationality": "American",
+    "education": "Thomas Jefferson University",
+    "img": "https://images.pexels.com/photos/6303550/pexels-photo-6303550.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  },
+  {
+    "id": 1,
+    "name": "Dr. Philip Stieg",
+    "Citations": 1034,
+    "hIndex": 47,
+    "type": "Pediatricians",
+    "nationality": "Canadian",
+    "education": "University of Wisconsin-Madison, Medical College of Wisconsin, Union University, Albany Medical college",
+    "img": "https://images.pexels.com/photos/5407217/pexels-photo-5407217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=768&w=1080"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Marc",
+    "Citations": 4090,
+    "hIndex": 65,
+    "type": "Dermatologists",
+    "nationality": "American",
+    "education": "Yale University, The Johns Hopkins University School of Medicine, Hawken Upper School",
+    "img": "https://images.pexels.com/photos/5327917/pexels-photo-5327917.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Pierre Gobin",
+    "Citations": 3600,
+    "hIndex": 34,
+    "type": "Ophthalmologists",
+    "nationality": "French",
+    "education": "University of Paris",
+    "img": "https://images.pexels.com/photos/5752287/pexels-photo-5752287.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Theodore",
+    "Citations": 17860,
+    "hIndex": 56,
+    "type": "gynecologists",
+    "nationality": "American",
+    "education": "Harvard University, Harvard Medical School",
+    "img": "https://images.pexels.com/photos/7089031/pexels-photo-7089031.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Venus",
+    "Citations": 3213,
+    "hIndex": 67,
+    "type": "Cardiologists",
+    "nationality": "American",
+    "education": "New York University, California School of Professional Psychology",
+    "img": "https://images.pexels.com/photos/8460083/pexels-photo-8460083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=768&w=1080"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Nicholas",
+    "Citations": 9870,
+    "hIndex": 54,
+    "type": "Endocrinologists",
+    "nationality": "Japanese",
+    "education": "Temple University, Wharton School of the University of Pennsylvania",
+    "img": "https://images.pexels.com/photos/3881791/pexels-photo-3881791.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Fazlul Haque",
+    "Citations": "7896",
+    "hIndex": 76,
+    "type": "Gastroenterologists",
+    "nationality": "Bangladeshi",
+    "education": "Dhaka Medical College Hospital",
+    "img": "https://images.pexels.com/photos/4021769/pexels-photo-4021769.jpeg?auto=compress&cs=tinysrgb&w=1080&h=768&dpr=1"
+  }
+]

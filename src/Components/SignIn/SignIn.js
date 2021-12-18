@@ -7,11 +7,9 @@ import useAuth from '../../Hooks/UseAuth';
 
 
 const SignIn = () => {
-    const { googleSignIn, githubSignIn } = useAuth();
+    const { googleSignIn, githubSignIn, handleEmail, handlePass, handleSubmit } = useAuth();
 
-    const handleSubmit = event => {
-        event.preventDefault();
-    }
+
 
 
     return (
@@ -23,11 +21,11 @@ const SignIn = () => {
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Sign In</Form.Label>
-                                    <Form.Control className='input-design' type="email" placeholder="Username Or Email" />
+                                    <Form.Control className='input-design' type="email" onBlur={handleEmail} placeholder="Username Or Email" required />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                                    <Form.Control className='input-design' type="password" placeholder="Password" />
+                                    <Form.Control className='input-design' type="password" onBlur={handlePass} placeholder="Password" required />
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                                     <Form.Check type="checkbox" label="Remember Me" />

@@ -32,7 +32,6 @@ const Services = () => {
                     }
                 </Row>
             </Container>
-
         </div>
     );
 };

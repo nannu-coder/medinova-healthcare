@@ -11,6 +11,9 @@ import SignUp from './Components/SignUp/SignUp';
 import AuthProvider from './Context/AuthProvider';
 import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Services from './Components/Services/Services';
+import ComingSoon from './Components/ComingSoon/ComingSoon';
+import DetailsDoctor from './Components/Doctor/DetailsDoctor/DetailsDoctor';
 
 
 
@@ -21,32 +24,44 @@ function App() {
         <BrowserRouter>
           <MenuBar></MenuBar>
           <Switch>
-            <Route path='/home' Component={Home}>
+            <Route path='/home'>
               <Home></Home>
             </Route>
 
-            <Route exact path='/' Component={Home}>
+            <Route exact path='/'>
               <Home></Home>
             </Route>
 
-            <Route path='/doctors' Component={Doctors}>
+            <Route path='/doctors'>
               <Doctors></Doctors>
             </Route>
 
-            <Route path='/contacts' Component={Contacts}>
+            <Route path='/contacts'>
               <Contacts></Contacts>
             </Route>
 
-            <Route path='/signin' Component={SignIn}>
+            <Route path='/signin'>
               <SignIn></SignIn>
             </Route>
 
-            <Route path='/signup' Component={SignUp}>
+            <Route path='/signup'>
               <SignUp></SignUp>
             </Route>
 
+            <PrivateRoute path='/services'>
+              <Services></Services>
+            </PrivateRoute>
+
             <PrivateRoute path='/servicedetails/:userId'>
               <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
+
+            <Route path='/comingsoon'>
+              <ComingSoon></ComingSoon>
+            </Route>
+
+            <PrivateRoute path='/detailsdoctor/:id'>
+              <DetailsDoctor></DetailsDoctor>
             </PrivateRoute>
 
             <Route path='*'>

@@ -1,0 +1,44 @@
+.soon {
+  margin-top: 250px;
+}
+
+.soon span:before {
+  content: "";
+  animation: animate infinite 1s;
+  transition: all linear 0.3s;
+}
+@keyframes animate {
+  0% {
+    content: "C";
+  }
+  10% {
+    content: "Co";
+  }
+  20% {
+    content: "Com";
+  }
+  30% {
+    content: "Comi";
+  }
+  40% {
+    content: "Comin";
+  }
+  50% {
+    content: "Coming";
+  }
+  60% {
+    content: "Coming S";
+  }
+  70% {
+    content: "Coming So";
+  }
+  80% {
+    content: "Coming Soo";
+  }
+  90% {
+    content: "Coming Soon";
+  }
+  100% {
+    content: "Coming Soon!";
+  }
+}
