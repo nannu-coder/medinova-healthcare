@@ -14,6 +14,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Services from './Components/Services/Services';
 import ComingSoon from './Components/ComingSoon/ComingSoon';
 import DetailsDoctor from './Components/Doctor/DetailsDoctor/DetailsDoctor';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -68,6 +69,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
