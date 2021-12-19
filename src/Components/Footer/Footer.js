@@ -8,23 +8,23 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div class='footer'>
+        <div className='footer'>
             <Container>
                 <Row>
-                    <div class="col-lg-4">
-                        <div class="footer_fst">
-                            <div class="footer_logo logo">
+                    <div className="col-lg-4">
+                        <div className="footer_fst">
+                            <div className="footer_logo logo">
                                 <h1>medi<span>nova</span> </h1>
                             </div>
-                            <div class="footer_p">
+                            <div className="footer_p">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sint assumenda dicta minima temporibus tenetur unde delectus repellat quasi consequuntur facere.</p>
                             </div>
-                            <div class="footer_social">
+                            <div className="footer_social">
                                 <p> <FontAwesomeIcon icon={faPhone} />   <span>+1 650-385-8068</span></p>
 
                                 <p><FontAwesomeIcon icon={faEnvelope} />  <span>medinova@health.com</span></p>
                             </div>
-                            <div class="footer_social_link">
+                            <div className="footer_social_link">
                                 <ul>
                                     <li>
                                         <Link to='/comingsoon'>
@@ -50,11 +50,11 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="footer_quick footer_heading">
+                    <div className="col-lg-4">
+                        <div className="footer_quick footer_heading">
                             <h1>quick Links</h1>
                         </div>
-                        <div class="links">
+                        <div className="links">
                             <ul>
                                 <li>
                                     <Link to='/comingsoon'>
@@ -89,12 +89,12 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="footer_contact">
-                            <div class="footer_heading">
+                    <div className="col-lg-4">
+                        <div className="footer_contact">
+                            <div className="footer_heading">
                                 <h1>Contact Us</h1>
                             </div>
-                            <div class="footer_msg">
+                            <div className="footer_msg">
                                 <Form>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                         <Form.Control type="email" placeholder="E-mail" />
@@ -103,17 +103,17 @@ const Footer = () => {
                                         <Form.Control placeholder='Messages....' as="textarea" rows={3} />
                                     </Form.Group>
                                 </Form>
-                                <button class='send_btn' type="submit">Send</button>
+                                <button className='send_btn' type="submit">Send</button>
                             </div>
                         </div>
                     </div>
                 </Row>
             </Container>
-            <div style={{ background: '#353A40' }} class="footer_bottm">
+            <div style={{ background: '#353A40' }} className="footer_bottm">
                 <Container>
                     <Row>
-                        <div class="col-lg-12">
-                            <div class="footer_bottom text-center">
+                        <div className="col-lg-12">
+                            <div className="footer_bottom text-center">
                                 <p>Copyright &copy; 2021 All Right Reserved By <span>Medinova</span></p>
                             </div>
                         </div>

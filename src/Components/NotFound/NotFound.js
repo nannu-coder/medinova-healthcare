@@ -1,9 +1,18 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import './NotFound.css';
 
 const NotFound = () => {
     return (
         <div>
-            <h1 className='mt-5'>This Is Not Found Page</h1>
+            <Container>
+                <Row>
+                    <div className="page_error mt-5 text-center">
+                        <h1 className='err_code'>404</h1>
+                        <h1 className='not_found'>Page Not Found</h1>
+                    </div>
+                </Row>
+            </Container>
         </div>
     );
 };
